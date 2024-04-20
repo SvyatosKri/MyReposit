@@ -2,10 +2,19 @@
   "name": "reposit",
   "version": "1.0.0",
   "description": "Привет, меня зовут Святослав, а это файл readme с подсказками по тексту.",
-  "main": "file.js",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
-    "lab1": "node file.js"
-  }, 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  }
 }
